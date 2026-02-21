@@ -1,5 +1,25 @@
 # Earleaf Changelog
 
+## 1.0.0-beta.5 — February 21, 2026
+
+### New Features
+
+- **Automatic sleep timer.** Configure a time window (e.g. 9 PM to 7 AM) and the sleep timer will activate automatically whenever you start listening during that period. The auto-timer fires once per book session and never overrides a manually set timer.
+- **Home screen shortcut.** Long-press the app icon for a "Resume listening" shortcut that jumps straight into your last-played book.
+- **Collection cover mosaics.** Collections now show a 2x2 grid of book covers instead of a single cover, giving you a better visual overview. User-set covers are still shown as a single image.
+- **Delete books.** You can now delete a book and all its data from the book detail overflow menu.
+- **Sleep timer memory.** The sleep timer picker now remembers your last used duration instead of always defaulting to 30 minutes.
+
+### Improvements
+
+- Ignored books are now tracked by content fingerprint, so they stay ignored even if renamed or moved between syncs.
+
+### Bug Fixes
+
+- Fixed incorrect duration detection for some M4B files where Android reported wildly wrong values (e.g. ~1204 hours instead of ~16 hours).
+
+---
+
 ## 1.0.0-beta.4 — February 18, 2026
 
 ### New Features
